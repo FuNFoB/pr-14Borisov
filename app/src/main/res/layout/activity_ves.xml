@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral50"
+    tools:context=".Ves">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="524dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_3" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="183dp"
+        android:layout_height="98dp"
+        android:text="Меню"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="340dp"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/_646813614_8_kartinkin_net_p_puls_kartinki_8"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="399dp"
+        android:layout_height="297dp"
+        app:srcCompat="@drawable/_fb935c409f8323008e34ed2b5b27ab9"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
